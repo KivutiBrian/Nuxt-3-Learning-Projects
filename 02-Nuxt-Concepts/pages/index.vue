@@ -1,3 +1,11 @@
+<script setup >
+    useHead({
+        title: "Home - Nuxt3 Concepts",
+        meta: [{name:"description", content: "This is Nuxt 3 app demo"}]
+    })
+</script>
+
+
 <template>
 
     <CustomTitle>Home Page</CustomTitle>
@@ -9,3 +17,4 @@
 
     <DashboardStatsCard></DashboardStatsCard>
 </template>
+
